@@ -1,0 +1,4 @@
+def build(bld):
+    bld(features='cxx', source='Bar.proto', target='bar/Bar',
+        use=['PROTOBUF'], includes=['.'])
+    bld(features='cxx', source='Baz.cpp', target='bar/Baz')

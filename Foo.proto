@@ -1,0 +1,5 @@
+package tms.proto;
+
+message Foo {
+    required string foo = 1;
+}

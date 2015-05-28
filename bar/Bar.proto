@@ -1,0 +1,5 @@
+package tms.bar.proto;
+
+message Bar {
+    required string bar = 1;
+}
